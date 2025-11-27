@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- 基础 SEO -->
+  <title>GravityLab – Relaxing Physics Sandbox Game | gravity.xyh.wiki</title>
+  <meta
+          name="description"
+          content="GravityLab is a relaxing browser-based physics sandbox game on gravity.xyh.wiki. Spawn fire, ice, glass, rubber and metal balls, trigger fire rain or rainbow sky, and watch gravity create beautiful patterns to relieve stress."
+  />
+  <meta
+          name="keywords"
+          content="GravityLab, gravity sandbox, relaxing game online, physics toy, stress relief game, browser physics simulation, gravity balls, particle sandbox, XYH games"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="XYH" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://gravity.xyh.wiki/" />
+
+  <!-- 品牌 + 主题色 -->
+  <meta name="theme-color" content="#000000" />
+  <meta name="referrer" content="origin-when-cross-origin" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="gravity.xyh.wiki" />
+  <meta
+          property="og:title"
+          content="GravityLab – Relaxing Physics Sandbox Game"
+  />
+  <meta
+          property="og:description"
+          content="Play GravityLab on gravity.xyh.wiki – a relaxing physics sandbox game. Click or tap to spawn emoji balls, choose materials and trigger fire rain, water rain, rainbow sky or storm."
+  />
+  <!-- TODO: 换成你真实的预览图地址，建议 1200x630 / 1920x1080 -->
+  <meta
+          property="og:image"
+          content="https://gravity.xyh.wiki/og-gravitylab.png"
+  />
+  <meta property="og:url" content="https://gravity.xyh.wiki/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+          name="twitter:title"
+          content="GravityLab – Relaxing Physics Sandbox Game"
+  />
+  <meta
+          name="twitter:description"
+          content="Relax with a simple physics sandbox. Spawn balls, play with gravity and weather, and watch satisfying patterns emerge."
+  />
+  <meta
+          name="twitter:image"
+          content="https://gravity.xyh.wiki/og-gravitylab.png"
+  />
+
+  <!-- PWA / 图标（你有的话直接换自己的） -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- 全站 WebApplication + Game 结构化数据 -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["WebApplication", "Game"],
+      "name": "GravityLab",
+      "url": "https://gravity.xyh.wiki/",
+      "applicationCategory": "Game",
+      "operatingSystem": "Web",
+      "description": "GravityLab is a relaxing browser-based physics sandbox game hosted on gravity.xyh.wiki. Spawn different materials, trigger weather events like fire rain or rainbow sky, and watch gravity create soothing patterns.",
+      "author": {
+        "@type": "Person",
+        "name": "XYH"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "XYH Studio",
+        "url": "https://xyh.wiki/"
+      },
+      "inLanguage": "en",
+      "genre": ["Casual", "Sandbox", "Simulation"],
+      "playMode": "single-player",
+      "keywords": [
+        "relaxing game",
+        "physics sandbox",
+        "gravity simulation",
+        "stress relief game",
+        "web toy"
+      ],
+      "isFamilyFriendly": true
+    }
+  </script>
+
+  <!-- FAQ 结构化数据（和页面 FAQ 文案对应） -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is GravityLab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GravityLab is a browser-based physics sandbox game on gravity.xyh.wiki. You can spawn different types of emoji balls, choose materials like fire, ice, glass, rubber and metal, and trigger global weather events to watch gravity create satisfying patterns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GravityLab free to play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, GravityLab is completely free to play in your browser. No login, no account, and no download are required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play GravityLab on mobile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. GravityLab supports touch controls on mobile. Tap to spawn balls and use the bottom-right tools panel to change materials or trigger weather events."
+          }
+        }
+      ]
+    }
+  </script>
+
+  <!-- 如果你要接 GA4 / Umami，可在这里插入脚本（略） -->
+</head>
+<body style="margin: 0; overflow: hidden; background: #000">
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
